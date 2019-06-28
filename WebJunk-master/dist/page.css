@@ -93,6 +93,11 @@ ul {
     top: 160px;
 }
 
+.post .details .nome
+{
+    font-weight: bold;
+}
+
 html { 
     background: url("vaporroad.jpg");
     -webkit-background-size: cover;
