@@ -98,6 +98,13 @@ ul {
     font-weight: bold;
 }
 
+.post .details .conttitle
+{
+    position:relative;
+    left: 20px;
+    bottom: 10px;
+}
+
 html { 
     background: url("vaporroad.jpg");
     -webkit-background-size: cover;
