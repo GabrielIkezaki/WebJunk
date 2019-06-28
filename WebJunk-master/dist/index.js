@@ -21,9 +21,10 @@ function createPost(post)
     var domString = '<div class = "details">' + 
     '<img class = "foto" src= "' + post.user.profilePic + '" alt= "User Image" style="width:100px;height:100px">' +
     '<p class = "nome">' + post.user.userName + '</p>' + 
+    '<p class = "conttitle">' + post.productTitle + '</p>' +
     '<p class = "likes">' + post.likes + '</p>' +
     '<button class = "back" onclick = "addLike(' + post.id + ')">' +
-        '<img width = "20" height= "20" src = "https://imageog.flaticon.com/icons/png/512/9/9571.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"' +
+        '<img width = "20" height= "20" src = "facebook-like--v1.png"' +
     '</button>' + 
 '</div>' + 
 '<p class="textoPost">' + post.text + '</p>';
