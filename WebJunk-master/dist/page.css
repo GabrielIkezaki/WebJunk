@@ -1,0 +1,102 @@
+h1
+{
+    color: plum;
+    background-image: url("maxresdefault.jpg");
+    padding: 50px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.content
+{
+   margin-top: 0px;
+   background-color: turquoise;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+
+.backgroundcontent
+{
+    background-image: url("vaporroad.jpg");
+    position: absolute;
+}
+
+.Button
+{
+    position: relative;
+    left: 350px;
+    color: white;
+    font-size: 20px;
+}
+
+.contenttitle
+{
+    position: relative;
+    top: 40px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contentimage
+{
+    margin-left: 20px;
+    position: relative;
+    bottom: 145px;
+}
+
+.contenttext
+{
+    position: relative;
+    margin-left: 350px;
+    margin-right: 100px;
+    top: 150px;
+}
+
+.contentcolor{
+    background-color: rgb(43, 226, 165);
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+.contentsource
+{
+    position: relative;
+    top: 160px;
+}
+
+html { 
+    background: url("vaporroad.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
