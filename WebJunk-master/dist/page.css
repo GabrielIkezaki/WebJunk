@@ -93,12 +93,20 @@ ul {
     top: 160px;
 }
 
-.post .details .nome
+.post
 {
-    font-weight: bold;
-    color:white;
+    border-bottom: blueviolet;
 }
+    .post .details
+    {
+        font-size: 1.2rem; 
+    }
 
+        .post .details .nome
+        {
+            color: aliceblue;
+            font-size: 30px;
+        }
 
 html { 
     background: url("vaporroad.jpg");
