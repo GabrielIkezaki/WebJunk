@@ -28,7 +28,8 @@ function createPost(post)
         '<img width = "20" height= "20" src = "facebook-like--v1.png"' +
     '</button>' + 
 '</div>' + 
-'<p class="textoPost">' + post.text + '</p>';
+'<p class="textoPost">' + post.text + '</p>' +
+'<p class = "contsource">' +post.productSource + '</p>';
 
 postElement.innerHTML = domString;
 
