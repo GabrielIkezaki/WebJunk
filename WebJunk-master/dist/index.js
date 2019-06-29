@@ -22,6 +22,7 @@ function createPost(post)
     '<img class = "foto" src= "' + post.user.profilePic + '" alt= "User Image" style="width:100px;height:100px">' +
     '<p class = "nome">' + post.user.userName + '</p>' + 
     '<p class = "conttitle">' + post.productTitle + '</p>' +
+    '<p class = "contimage" src= "'+ post.productImage + '" alt= "Product Image" style="width:300px;height:300px">' +
     '<p class = "likes">' + post.likes + '</p>' +
     '<button class = "back" onclick = "addLike(' + post.id + ')">' +
         '<img width = "20" height= "20" src = "facebook-like--v1.png"' +
