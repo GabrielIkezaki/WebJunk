@@ -29,7 +29,8 @@ function createPost(post)
     '</button>' + 
 '</div>' + 
 '<p class="textoPost">' + post.text + '</p>' +
-'<p class = "contsource">' +post.productSource + '</p>';
+'<p class = "contsource">' +post.productSource + '</p>'+
+'<p class = "contSpacer">' + post.spacer + '</p>';
 
 postElement.innerHTML = domString;
 
